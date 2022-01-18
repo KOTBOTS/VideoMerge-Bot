@@ -390,7 +390,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
                     )
                 )
             except Exception as downloadErr:
-                print(f"**😐 Failed to Download the Given File!**\n**Error: {downloadErr}**\n\n**Contact My Support Group - @tellybotz_support**")
+                print(f"**😐 Failed to Download the Given File!**\n**Error: {downloadErr}**\n\n**Contact My Support Group - @KOT_REPORS**")
                 QueueDB.get(cb.from_user.id).remove(i.message_id)
                 await cb.message.edit("**File Skipped!**")
                 await asyncio.sleep(3)
