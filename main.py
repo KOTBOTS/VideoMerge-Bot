@@ -446,7 +446,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
                 [
                     [InlineKeyboardButton("📂 Rename File", callback_data="renameFile_Yes"), 
                      InlineKeyboardButton("😐 Use Default", callback_data="renameFile_No")],
-                    [InlineKeyboardButton("💬 Join My Support Group 👥", url="https://t.me/tellybotz_support")]
+                    [InlineKeyboardButton("💬 Join My Support Group 👥", url="https://t.me/KOT_REPORS")]
                 ]
             )
         )
@@ -505,7 +505,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
                 user = await bot.get_chat_member(chat_id=(int(Config.UPDATES_CHANNEL) if Config.UPDATES_CHANNEL.startswith("-100") else Config.UPDATES_CHANNEL), user_id=cb.message.chat.id)
                 if user.status == "kicked":
                     await cb.message.edit(
-                        text="**Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/tellybotz_support).**",
+                        text="**Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/KOT_REPORS).**",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -528,7 +528,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
                 return
             except Exception:
                 await cb.message.edit(
-                    text="**Something went Wrong Dude. Contact my [Support Group](https://t.me/tellybotz_support).**",
+                    text="**Something went Wrong Dude. Contact my [Support Group](https://t.me/KOT_REPORS).**",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -592,7 +592,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("👀 Other Botz", url="https://t.me/tellybots"),
+                        InlineKeyboardButton("👀 Other Botz", url="https://t.me/KOT_BOTS"),
                         InlineKeyboardButton("😐 Close", callback_data="close")
                     ]
                 ] 
@@ -701,7 +701,7 @@ async def callback_handlers(bot: Client, cb: CallbackQuery):
             video_thumbnail=video_thumbnail,
             file_size=os.path.getsize(merged_vid_path)
         )
-        caption = f"**__© Uploaded By @Tellybots ❤️__**"
+        caption = f"**__© Uploaded By @KOT_BOTS ❤️__**"
         if (await db.get_generate_ss(cb.from_user.id)) is True:
             await cb.message.edit("**Now Generating Screenshots...**")
             generate_ss_dir = f"{Config.DOWN_PATH}/{str(cb.from_user.id)}"
