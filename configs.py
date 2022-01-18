@@ -20,26 +20,37 @@ class Config(object):
     BOT_OWNER = int(os.environ.get("BOT_OWNER", 1445283714))
 
     START_TEXT = """
-**Hello {}, I'm a Simple Video Merger Bot!
-I can Merge Multiple Videos into One Video, Generate ScreenShots, Generate Sample Video and many extra features....!
+**Hᴇʟʟᴏ {}, I'ᴍ ᴀ Sɪᴍᴘʟᴇ Vɪᴅᴇᴏ Mᴇʀɢᴇʀ Bᴏᴛ!
+I Cᴀɴ Mᴇʀɢᴇ Mᴜʟᴛɪᴘʟᴇ Vɪᴅᴇᴏs Iɴᴛᴏ Oɴᴇ Vɪᴅᴇᴏ, Gᴇɴᴇʀᴀᴛᴇ SᴄʀᴇᴇɴSʜᴏᴛs, Gᴇɴᴇʀᴀᴛᴇ Sᴀᴍᴘʟᴇ Vɪᴅᴇᴏ Aɴᴅ Mᴀɴʏ Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs....!
 
-Configure The Settings Before using meh...!
-Check Below Buttons for more..! 
+Cᴏɴғɪɢᴜʀᴇ Tʜᴇ Sᴇᴛᴛɪɴɢs Bᴇғᴏʀᴇ Usɪɴɢ Mᴇʜ...!
+Cʜᴇᴄᴋ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs Fᴏʀ Mᴏʀᴇ..! 
 
-🤖 Developer : [Tellybots](https://t.me/tellybots)**
+🤖 𝗕𝗢𝗧 𝗖𝗥𝗘𝗔𝗧𝗘𝗗 𝗔𝗡𝗗 𝗠𝗔𝗧𝗜𝗡𝗔𝗘𝗗 𝗕Y : [KOT DEV](https://t.me/KOT_FREE_DE_LA_HOYA_OFF)**
 """
     ABOUT_TEXT = """
-**● Developed By : [Tellybots](https://t.me/tellybots)
-● Updates Channel : [Tellybots](https://t.me/tellybots)
-● Support : [Telly Botz Support](https://t.me/tellybotz_support)
-● Language : [Python 3](https://www.python.org)
-● Library : [Pyrogram](https://docs.pyrogram.org)
-● Server : [Heroku](https://heroku.com)
+╭──────[@KOT_BOTS]───────〄
+│
+├ Nᴀᴍᴇ : <a href='https://t.me/KOT_VIDEO_MERGER_BOT'>Vɪᴅᴇᴏ Mᴇʀɢᴇʀ Bᴏᴛ</a>
+│
+├ Sᴇʀᴠᴇʀ : <a href='https://heroku.com/'>Hᴇʀᴏᴋᴜ</a>
+│ 
+├ Lᴀɴɢᴜᴀɢᴇ : <a href='https://docs.pyrogram.org/'>Pʏᴛʜᴏɴ 3.9.6</a>
+│
+├ Vᴇʀꜱɪᴏɴ : <a href='https://t.me/KOT_VIDEO_MERGER_BOT</a>
+│
+├ Fʀᴀᴍᴇᴡᴏʀᴋ : <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ 1.2.9</a>
+│
+├ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/KOT_FREE_DE_LA_HOYA_OFF'>✯°• Kᴏᴛ Fʀᴇᴇ Dᴇ Lᴀ Hᴏʏᴀ Oғғ °•✯ | ✪ Bᴏᴛs CʀᴇᴀᴛᴏR ✪</a>
+│
+├ Pᴏᴡᴇʀᴇᴅ Bʏ : <a href='https://t.me/KOT_LINKS_TEAM'>Kᴏᴛ Lɪɴᴋs Tᴇᴀᴍ</a>
+│
+├ Uᴘᴅᴀᴛᴇᴅ Oɴ : [ 19.1.2022 ] 07:09 AM
 
-©️ Made By @Tellybots ❤️**
+©️ 𝗕𝗢𝗧 𝗠𝗔𝗧𝗜𝗡𝗔𝗘𝗗 𝗕𝗬 : @KOT_BOTS
 """
 
-    HELP_TEXT = """**Hello {}, It's too easy to use me..**
+    HELP_TEXT = """**Hᴇʟʟᴏ {}, It's too easy to use me..**
  
 **● Configure the Settings before using me... 
 ● Send a photo to set it as your custom thumbnail...
@@ -54,11 +65,19 @@ Check Below Buttons for more..!
 © By @Tellybots ❤️**
 """
     
-    CAPTION = "**__© Merged By @Tellybots ❤️__**"
+    CAPTION = "**__© Merged By @KOT_BOTS ❤️__**"
     PROGRESS = """
-**● Percentage : {0}%**
-**● Done: {1}**
-**● Total: {2}**
-**● Speed: {3}/s**
-**● ETA: {4}**
+╭─────────────────────⍟
+│
+├⏳ 𝐄𝐓𝐀: {4}
+│
+├🛠 𝐏𝐞𝐫𝐜𝐞𝐧𝐭𝐚𝐠𝐞 : {0}%
+│
+├✅ 𝐃𝐨𝐧𝐞: {1}
+│
+├📡 𝐓𝐨𝐭𝐚𝐥: {2}
+│
+├🚀 𝐒𝐩𝐞𝐞𝐝: {3}/s
+│
+╰──────────[🌩️]──────────⍟
 """
