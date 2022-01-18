@@ -52,17 +52,18 @@ Cʜᴇᴄᴋ Bᴇʟᴏᴡ Bᴜᴛᴛᴏɴs Fᴏʀ Mᴏʀᴇ..!
 
     HELP_TEXT = """**Hᴇʟʟᴏ {}, It's too easy to use me..**
  
-**● Configure the Settings before using me... 
-● Send a photo to set it as your custom thumbnail...
-● Send videos to merge accordingly...**
-  __- Atleast 2 Videos to be sent to merge
-  - The video formats should be mp4, mkv or WebM
-  - The videos should have proper file name__
-  
-**● If you are done with sending medias, Click "🔀 Merge Now" to merge
-● That's it, and rest is mine work...
+● Cᴏɴғɪɢᴜʀᴇ Tʜᴇ Sᴇᴛᴛɪɴɢs Bᴇғᴏʀᴇ Usɪɴɢ Mᴇ... 
+● Sᴇɴᴅ ᴀ Pʜᴏᴛᴏ Tᴏ Sᴇᴛ Iᴛ As Yᴏᴜʀ Cᴜsᴛᴏᴍ Tʜᴜᴍʙɴᴀɪʟ...
+● Sᴇɴᴅ Vɪᴅᴇᴏs Tᴏ Mᴇʀɢᴇ Aᴄᴄᴏʀᴅɪɴɢʟʏ..
 
-© By @Tellybots ❤️**
+  - Aᴛʟᴇᴀsᴛ 𝟸 Vɪᴅᴇᴏs Tᴏ Bᴇ Sᴇɴᴛ Tᴏ Mᴇʀɢᴇ
+  - Tʜᴇ Vɪᴅᴇᴏ Fᴏʀᴍᴀᴛs Sʜᴏᴜʟᴅ Bᴇ Mᴘ𝟺, Mᴋᴠ Oʀ WᴇʙM
+  - Tʜᴇ Vɪᴅᴇᴏs Sʜᴏᴜʟᴅ Hᴀᴠᴇ Pʀᴏᴘᴇʀ Fɪʟᴇ Nᴀᴍᴇ
+
+● Iғ Yᴏᴜ Aʀᴇ Dᴏɴᴇ Wɪᴛʜ Sᴇɴᴅɪɴɢ Mᴇᴅɪᴀs, Cʟɪᴄᴋ "🔀 Mᴇʀɢᴇ Nᴏᴡ" Tᴏ Mᴇʀɢᴇ
+● Tʜᴀᴛ's Iᴛ, Aɴᴅ Rᴇsᴛ Is Mɪɴᴇ Wᴏʀᴋ...
+
+© 𝗕𝗢𝗧 𝗖𝗥𝗘𝗔𝗧𝗘𝗗 𝗕𝗬 @KOT_FREE_DE_LA_HOYA_OFF ❤️**
 """
     
     CAPTION = "**__© Merged By @KOT_BOTS ❤️__**"
