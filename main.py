@@ -61,7 +61,7 @@ HELP_BUTTONS = InlineKeyboardMarkup(
 
 ABOUT_BUTTONS = InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("📮 Feedback Dev", url="https://t.me/sahaynitin45")],
+                [InlineKeyboardButton("📮 Feedback Dev", url="https://t.me/KOT_FREE_DE_LA_HOYA_OFF")],
                 [InlineKeyboardButton("🏡 Home", callback_data="home"),
                  InlineKeyboardButton("⛔ Close", callback_data="close")]
             ]
@@ -133,12 +133,12 @@ async def videos_handler(bot: Client, m: Message):
         return
     media = m.video or m.document
     if media.file_name.rsplit(".", 1)[-1].lower() not in ["mp4", "mkv", "webm"]:
-        await m.reply_text("**Sorry dude, I don't support such video formats!**\n**Send Only MP4, MKV or WEBM.**\n\n**Thank You For Using me - @Tellybots ❤️**", quote=True)
+        await m.reply_text("**Sorry dude, I don't support such video formats!**\n**Send Only MP4, MKV or WEBM.**\n\n**Thank You For Using me - @KOT_BOTS ❤️**", quote=True)
         return
     if QueueDB.get(m.from_user.id, None) is None:
         FormtDB.update({m.from_user.id: media.file_name.rsplit(".", 1)[-1].lower()})
     if (FormtDB.get(m.from_user.id, None) is not None) and (media.file_name.rsplit(".", 1)[-1].lower() != FormtDB.get(m.from_user.id)):
-        await m.reply_text(f"**Send another video of the same format as the earlier one 👍🏻**\n **Your File - {FormtDB.get(m.from_user.id).upper()}**\n\n**Thank You For Using me - @Tellybots ❤️**", quote=True)
+        await m.reply_text(f"**Send another video of the same format as the earlier one 👍🏻**\n **Your File - {FormtDB.get(m.from_user.id).upper()}**\n\n**Thank You For Using me - @KOT_BOTS ❤️**", quote=True)
         return
     input_ = f"{Config.DOWN_PATH}/{m.from_user.id}/input.txt"
     if os.path.exists(input_):
@@ -160,7 +160,7 @@ async def videos_handler(bot: Client, m: Message):
                 FormtDB.update({m.from_user.id: media.file_name.rsplit(".", 1)[-1].lower()})
             await asyncio.sleep(Config.TIME_GAP)
             if len(QueueDB.get(m.from_user.id)) == Config.MAX_VIDEOS:
-                MessageText = "**Okay, You can merge your videos using the below Merge Now Button!**\n\n**© Made by @Tellybots ❤️**"
+                MessageText = "**Okay, You can merge your videos using the below Merge Now Button!**\n\n**© Made by @KOT_BOTS ❤️**"
             markup = await MakeButtons(bot, m, QueueDB)
             await editable.edit(text="**Your Videos are Added to Queue!**")
             reply_ = await m.reply_text(
